@@ -7,9 +7,9 @@ const BooksList = () => {
       <table>
         <thead>
           <tr>
-            <td>ID</td>
-            <td>Title</td>
-            <td>Category</td>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Category</th>
           </tr>
         </thead>
         <tbody>
