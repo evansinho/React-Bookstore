@@ -58,8 +58,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 👤 **Evanson Igiri**
 
 - Github: [@evansinho](https://github.com/evansinho)
-- Twitter: [@iamevanson](https://twitter.com/DanielLarbiAdd1)
-- Linkedin: [Evanson Igiri](https://linkedin.com/in/)
+- Twitter: [@iamevanson](https://twitter.com/iamevanson)
+- Linkedin: [Evanson Igiri](https://linkedin.com/in/evanson-igiri)
 - Email: (igiri.evanson@gmail.com)
 
 👤 **Daniel Larbi Addo**
