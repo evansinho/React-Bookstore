@@ -1,6 +1,7 @@
 ## Milestone 1
 
 In this milestone, we performed the following actions:
+
 - Use create-react-app to initialize a new React app
 - Delete any unnecessary file or asset
 - Add the necessary Redux packages to your project
@@ -18,6 +19,9 @@ In this milestone, we performed the following actions:
 - React-Create-App
 - npm
 - React
+- Redux
+- React-Redux
+- Prop-Types
 - Heroku
 
 ## Deployment
@@ -36,13 +40,11 @@ In this milestone, we performed the following actions:
 To get a local copy up and running follow these simple example steps.
 
 1. ``` git clone https://github.com/evansinho/React-Bookstore.git ```
-2. ``` cd calculator ```
+2. ``` cd React-Bookstore ```
 3. ``` git checkout  start```
 4. ``` yarn i ```
 5. ``` yarn start ```
 
-## Screenshot
-![screenshot](call.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
