@@ -33,7 +33,8 @@ Kindly review our project :man_technologist:
 
 ## Live Demo
 
-[Live Demo Link](https://redux-book.herokuapp.com/)
+[Live Demo Link](https://shrouded-brushlands-72459.herokuapp.com/)
+
 
 
 ## Getting Started

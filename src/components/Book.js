@@ -22,7 +22,7 @@ const Book = ({ book }) => (
 );
 
 Book.propTypes = {
-  book: PropTypes.number.isRequired,
+  book: PropTypes.func.isRequired,
 };
 
 export default Book;
