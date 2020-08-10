@@ -32,7 +32,7 @@ In this milestone, we performed the following actions:
 
 ## Live Demo
 
-[Live Demo Link](https://)
+[Live Demo Link](https://redux-book.herokuapp.com/)
 
 
 ## Getting Started
