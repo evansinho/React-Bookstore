@@ -1,6 +1,8 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
 
+import Book from '../components/Book';
+
 const BooksList = () => {
   return (
     <div>
@@ -13,11 +15,7 @@ const BooksList = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>Game of thrones</td>
-            <td>Adventure</td>
-          </tr>
+          <Book />
         </tbody>
       </table>
     </div>
