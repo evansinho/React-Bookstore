@@ -1,10 +1,49 @@
-/* eslint-disable linebreak-style */
+/* eslint-disable no-underscore-dangle */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
-import store from './store';
+import { createStore, applyMiddleware, compose } from 'redux';
+import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
+import App from './components/App';
+import rootReducer from './reducers';
 
+const initialState = {
+  books: [
+    {
+      id: Math.round(10 * Math.random()),
+      title: 'Pirate of carribbean',
+      category: 'Adventure',
+    },
+    {
+      id: Math.round(20 * Math.random()),
+      title: 'Babies day out',
+      category: 'kids',
+    },
+    {
+      id: Math.round(30 * Math.random()),
+      title: 'Game of thrones',
+      category: 'Action',
+    },
+    {
+      id: Math.round(40 * Math.random()),
+      title: 'Blade runner',
+      category: 'Sci-fi',
+    },
+    {
+      id: Math.round(50 * Math.random()),
+      title: 'Ghost Buster',
+      category: 'Horror',
+    },
+  ],
+};
+
+const middleware = [thunk];
+
+const store = createStore(rootReducer, initialState,
+  compose(applyMiddleware(...middleware),
+    window.__REDUX_DEVTOOLS_EXTENSION__
+                            && window.__REDUX_DEVTOOLS_EXTENSION__()));
 
 ReactDOM.render(
   <Provider store={store}>
