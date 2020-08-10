@@ -9,10 +9,10 @@ const Book = ( {book} ) => (
   </tr>
 );
 
-Book.proptypes = {
+Book.propTypes = {
   id: PropTypes.number,
-  title: PropTypes.string.isRequired,
-  category: PropTypes.string.isRequired
+  title: PropTypes.string,
+  category: PropTypes.string
 }
 
 export default Book;

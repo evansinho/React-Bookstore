@@ -11,27 +11,27 @@ import rootReducer from './reducers';
 const initialState = {
   books: [
     {
-      id: Math.round(10 * Math.random()),
+      id: Math.round(100 * Math.random()),
       title: 'Pirate of carribbean',
       category: 'Adventure',
     },
     {
-      id: Math.round(20 * Math.random()),
+      id: Math.round(200 * Math.random()),
       title: 'Babies day out',
       category: 'kids',
     },
     {
-      id: Math.round(30 * Math.random()),
+      id: Math.round(300 * Math.random()),
       title: 'Game of thrones',
       category: 'Action',
     },
     {
-      id: Math.round(40 * Math.random()),
+      id: Math.round(400 * Math.random()),
       title: 'Blade runner',
       category: 'Sci-fi',
     },
     {
-      id: Math.round(50 * Math.random()),
+      id: Math.round(500 * Math.random()),
       title: 'Ghost Buster',
       category: 'Horror',
     },
