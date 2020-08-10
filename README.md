@@ -1,15 +1,16 @@
-## Milestone 1
+## Milestone 2
 
 In this milestone, we performed the following actions:
 
-- Use create-react-app to initialize a new React app
-- Delete any unnecessary file or asset
-- Add the necessary Redux packages to your project
-  - Add react-redux using npm.
-  - Add redux using npm.
-- Run the application with npm start and make sure that everything works correctly.
-- Follow the instructions in create-react-app-buildpack to deploy the app to Heroku
+- Prepare directory structure
+- Implement the App Component
+- Implement BookList Component
+- Implement Book Component
+- Implement BooksForm Component
+- Define Redux Actions and Reducers
+- Initialize the Redux Store
 
+Kindly review our project :man_technologist: 
 
 ## Tools To Work With
 
@@ -32,7 +33,7 @@ In this milestone, we performed the following actions:
 
 ## Live Demo
 
-[Live Demo Link](https://)
+[Live Demo Link](https://redux-book.herokuapp.com/)
 
 
 ## Getting Started
