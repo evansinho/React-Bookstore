@@ -1,5 +1,5 @@
 import { CREATE_BOOK, REMOVE_BOOK } from '../constant/ActionTypes';
-import INITIAL_STATE from '../constants/InitialState';
+import INITIAL_STATE from '../constant/initialState';
 
 const books = (state = INITIAL_STATE, action) => {
   switch (action.type) {

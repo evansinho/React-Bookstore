@@ -6,7 +6,7 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import App from './components/App';
-import INITIAL_STATE from './constants/InitialState';
+import INITIAL_STATE from './constant/initialState';
 import rootReducer from './reducers';
 
 const STATE = { books: INITIAL_STATE };

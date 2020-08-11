@@ -1,4 +1,4 @@
-import { REMOVE_BOOK, CREATE_BOOK, CHANGE_FILTER } from '../constant/ActionTypes';
+import { REMOVE_BOOK, CREATE_BOOK } from '../constant/ActionTypes';
 
 export const createBook = book => ({
   type: CREATE_BOOK,
@@ -10,7 +10,7 @@ export const removeBook = id => ({
   id,
 });
 
-export const filterBook = category => ({
-  type: CHANGE_FILTER,
-  category,
-});
+// export const filterBook = category => ({
+//   type: CHANGE_FILTER,
+//   category,
+// });
