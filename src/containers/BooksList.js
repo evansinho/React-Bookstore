@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 import Book from '../components/Book';
-import { removeBook } from '../actions'
+import { removeBook } from '../actions';
 
 const BooksList = ({ books, removeBook }) => {
   return (
@@ -30,7 +30,7 @@ const BooksList = ({ books, removeBook }) => {
 
 BooksList.propTypes = {
   books: PropTypes.shape([]).isRequired,
-  removeBook: PropTypes.func.isRequired
+  removeBook: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = state => ({

@@ -27,7 +27,7 @@ const Book = ({ book, removeBook }) => (
 
 Book.propTypes = {
   book: PropTypes.shape({}).isRequired,
-  removeBook: PropTypes.func.isRequired
+  removeBook: PropTypes.func.isRequired,
 };
 
 export default Book;
