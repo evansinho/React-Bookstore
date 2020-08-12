@@ -4,12 +4,12 @@ const INITIAL_STATE = [
   {
     id: uuidv1(),
     title: 'Pirate of carribbean',
-    category: 'Adventure',
+    category: 'Action',
   },
   {
     id: uuidv1(),
     title: 'Babies day out',
-    category: 'kids',
+    category: 'Kids',
   },
   {
     id: uuidv1(),
@@ -19,7 +19,7 @@ const INITIAL_STATE = [
   {
     id: uuidv1(),
     title: 'Blade runner',
-    category: 'Sci-fi',
+    category: 'Sci-Fi',
   },
   {
     id: uuidv1(),
