@@ -9,8 +9,3 @@ export const removeBook = id => ({
   type: REMOVE_BOOK,
   id,
 });
-
-// export const filterBook = category => ({
-//   type: CHANGE_FILTER,
-//   category,
-// });
