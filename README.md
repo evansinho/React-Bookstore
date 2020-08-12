@@ -1,16 +1,12 @@
-## Milestone 3
+## Milestone 4
 
 In this milestone, we performed the following actions:
 
-- Make the BooksForm component stateful
-    - The component should store the title and the book category in its own state
-    - The component should implement the handleChange method which reacts to the user typing to input a name or to changes in the category select
-    - Each change to the form should modify the component’s state
-    - The component should implement handleSubmit which will save the new book in the Redux store and resets the component’s state
+- Enhance the Redux Store
 
-- Connect the REMOVE_BOOK action to the component
-    - Add a new table column to the BooksList component. It should render the “Remove Book” button next to each book
-    - Implement the handleRemoveBook method which accepts a book as an argument and removes it from the Redux store
+- Implement the categoryFilter Component
+
+- Keep the filter value in the Redux Store
 
 
 ## Tools To Work With
