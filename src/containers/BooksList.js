@@ -5,6 +5,8 @@ import PropTypes from 'prop-types';
 import CategoryFilter from '../components/CategoryFilter';
 import Book from '../components/Book';
 import { removeBook, changeFilter } from '../actions';
+import '../styles/BooksList.scss';
+import userImage from '../assets/images/user.png';
 
 const BooksList = ({
   books, removeBook, changeFilter, filter,
@@ -18,22 +20,24 @@ const BooksList = ({
 
   return (
     <div>
-      <CategoryFilter handleChange={handleFilterChange} />
-      <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Title</th>
-            <th>Category</th>
-            <th>Remove</th>
-          </tr>
-        </thead>
-        <tbody>
-          {filteredBooks().map(book => (
-            <Book key={book.id} book={book} removeBook={removeBook} />
-          ))}
-        </tbody>
-      </table>
+      <div className="main-container">
+        <div className="nav-container d-flex">
+          <div className="logo"> Bookstore CMS</div>
+          <CategoryFilter handleChange={handleFilterChange} />
+          <div className="image-container">
+            <img src={userImage} alt="user" />
+          </div>
+        </div>
+      </div>
+      {
+      filteredBooks().map(book => (
+        <Book
+          key={book.id}
+          book={book}
+          removeBook={removeBook}
+        />
+      ))
+}
     </div>
   );
 };
