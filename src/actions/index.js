@@ -1,12 +1,11 @@
-/* eslint-disable import/prefer-default-export */
-import ACTIONTYPES from '../constant/ActionTypes';
+import { REMOVE_BOOK, CREATE_BOOK } from '../constant/ActionTypes';
 
 export const createBook = book => ({
-  type: ACTIONTYPES.CREATE_BOOK,
+  type: CREATE_BOOK,
   book,
 });
 
 export const removeBook = id => ({
-  type: ACTIONTYPES.REMOVE_BOOK,
+  type: REMOVE_BOOK,
   id,
 });
