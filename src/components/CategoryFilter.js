@@ -3,15 +3,18 @@ import PropTypes from 'prop-types';
 import categories from '../constant/category';
 
 const CategoryFilter = ({ handleChange }) => (
-  <div>
-    <select name="category" onChange={handleChange}>
-      <option value="ALL">ALL</option>
-      { categories.map(category => (
-        <option key={category} value={category}>
-          { category }
-        </option>
-      ))}
-    </select>
+  <div className="header">
+    <label htmlFor="category" className="mt-2">
+      BOOKS
+      <select name="category" className="delete-bgcolor ml-4" onChange={handleChange}>
+        <option value="ALL">categories</option>
+        { categories.map(category => (
+          <option key={category} value={category}>
+            { category }
+          </option>
+        ))}
+      </select>
+    </label>
   </div>
 );
 
