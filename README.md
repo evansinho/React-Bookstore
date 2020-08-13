@@ -1,12 +1,10 @@
-## Milestone 4
+## Milestone 5
 
 In this milestone, we performed the following actions:
 
-- Enhance the Redux Store
+- Review the design file from above and identify all the elements
 
-- Implement the categoryFilter Component
-
-- Keep the filter value in the Redux Store
+- Implement the styling of the different components based on the design. Remember that each element needs to look exactly the same as in the design.
 
 
 ## Tools To Work With
