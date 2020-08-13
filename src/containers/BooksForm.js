@@ -51,7 +51,7 @@ class BooksForm extends React.Component {
       <div className="form-container">
         <div className="form-title">ADD NEW BOOK</div>
         <form onSubmit={this.handleSubmit} className="row">
-          <div className="col-md-7 bg-white">
+          <div className="col-md-7 bg-white m-sm">
             <input
               type="text"
               className="w-100"
@@ -61,7 +61,7 @@ class BooksForm extends React.Component {
               placeholder="Book title"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 m-sm">
             <select name="category" value={category} className="w-100 h-full" onChange={this.handleChange} id="category">
               { categories.map(category => (
                 <option key={category}>
@@ -70,7 +70,7 @@ class BooksForm extends React.Component {
               ))}
             </select>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 m-sm">
             <button value="submit" className="btn btn-primary full-render" type="submit"> ADD BOOK </button>
           </div>
         </form>

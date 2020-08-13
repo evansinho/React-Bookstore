@@ -14,7 +14,7 @@ const Book = ({ book, removeBook }) => (
         <button type="button" className="btnlink btn-padding-left disable-btn-border-none"> Edit</button>
       </div>
     </div>
-    <div className="col-md-4 ">
+    <div className="col-md-4 hide-on-small-screen">
       <div className="radialProgressBar progress-10 float-left">
         <div className="overlay" />
       </div>
@@ -23,7 +23,7 @@ const Book = ({ book, removeBook }) => (
         <span> Completed</span>
       </div>
     </div>
-    <div className="col-md-3">
+    <div className="col-md-3 hide-on-small-screen">
       <p className="m-0 color-12121">CURRENT CHAPTER</p>
       <strong className="chapter"> Chapter 10</strong>
       <button type="button" className="btn btn-primary mt-4 d-block">UPDATE PROGRESS</button>

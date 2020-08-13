@@ -43,11 +43,29 @@
       font-weight: bolder;
       margin-right: 40px;
     }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .main-container {
+    background-color: #fff;
+  }
+  .nav-container {
+    width: 100%;
+    margin: 0;
+  }
 
-    // h5 {
-    //   color:#121212;
-    //   font-size: 13px;
-    //   padding-right: 20px;
-    // }
+  select {
+    margin-right: 35px;
+  }
+  .logo {
+    font-size: 30px;
+    color: #0290ff;
+    font-weight: bolder;
+    margin-left: -120px;
+  }
+  .image-container {
+    margin-right: 50px;
+    border: 1px solid red;
+    background-color: #fff;
   }
 }
