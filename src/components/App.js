@@ -5,7 +5,7 @@ import BooksForm from '../containers/BooksForm';
 import '../styles/App.scss';
 
 const App = () => (
-  <div className>
+  <div className="container">
     <BooksList />
     <br />
     <BooksForm />

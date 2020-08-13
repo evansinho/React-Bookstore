@@ -21,6 +21,7 @@ In this milestone, we performed the following actions:
 - React-Redux
 - Prop-Types
 - Heroku
+- Boostrap
 
 ## Deployment
 
