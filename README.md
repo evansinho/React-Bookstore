@@ -24,7 +24,7 @@ In this milestone, we performed the following actions:
 ## Deployment
 
 - ``` heroku create $APP_NAME --buildpack mars/create-react-app```
-- ``` git push heroku milestone1:master ```
+- ``` git push heroku milestone5:master ```
 - ` heroku open `
 
 ## Live Demo
