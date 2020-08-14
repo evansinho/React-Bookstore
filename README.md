@@ -39,8 +39,8 @@ To get a local copy up and running follow these simple example steps.
 
 1. ``` git clone https://github.com/evansinho/React-Bookstore.git ```
 2. ``` cd React-Bookstore ```
-3. ``` git checkout  start```
-4. ``` yarn i ```
+3. ``` git checkout  milestone5```
+4. ``` npm i ```
 5. ``` yarn start ```
 
 
