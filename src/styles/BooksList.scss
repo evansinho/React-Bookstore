@@ -45,10 +45,12 @@
     }
   }
 }
+
 @media only screen and (min-width: 270px) and (max-width: 768px) {
   .main-container {
     background-color: #fff;
   }
+
   .nav-container {
     width: 100%;
     margin: 0;
@@ -57,12 +59,14 @@
   select {
     margin-right: 35px;
   }
+
   .logo {
     font-size: 30px;
     color: #0290ff;
     font-weight: bolder;
     margin-left: -120px;
   }
+
   .image-container {
     margin-right: 50px;
     background-color: #fff;
