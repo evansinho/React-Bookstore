@@ -1,12 +1,10 @@
-## Milestone 4
+## Milestone 5
 
 In this milestone, we performed the following actions:
 
-- Enhance the Redux Store
+- Review the design file from above and identify all the elements
 
-- Implement the categoryFilter Component
-
-- Keep the filter value in the Redux Store
+- Implement the styling of the different components based on the design. Remember that each element needs to look exactly the same as in the design.
 
 
 ## Tools To Work With
@@ -26,7 +24,7 @@ In this milestone, we performed the following actions:
 ## Deployment
 
 - ``` heroku create $APP_NAME --buildpack mars/create-react-app```
-- ``` git push heroku milestone1:master ```
+- ``` git push heroku milestone5:master ```
 - ` heroku open `
 
 ## Live Demo
@@ -41,9 +39,8 @@ To get a local copy up and running follow these simple example steps.
 
 1. ``` git clone https://github.com/evansinho/React-Bookstore.git ```
 2. ``` cd React-Bookstore ```
-3. ``` git checkout  start```
-4. ``` yarn i ```
-5. ``` yarn start ```
+3. ``` npm i ```
+4. ``` yarn start ```
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
