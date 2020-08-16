@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { v1 as uuidv1 } from 'uuid';
 import { createBook } from '../actions';
 import categories from '../constant/category';
+import '../styles/BooksForm.scss';
 
 class BooksForm extends React.Component {
   constructor(props) {
@@ -47,20 +48,21 @@ class BooksForm extends React.Component {
   render() {
     const { title, category } = this.state;
     return (
-      <div>
-        <form onSubmit={this.handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="title" />
+      <div className="form-container">
+        <div className="form-title">ADD NEW BOOK</div>
+        <form onSubmit={this.handleSubmit} className="row">
+          <div className="col-md-7 bg-white m-sm">
             <input
               type="text"
+              className="w-100"
               onChange={this.handleChange}
               value={title}
               name="title"
-              placeholder="Enter title"
+              placeholder="Book title"
             />
           </div>
-          <div className="form-group">
-            <select name="category" value={category} onChange={this.handleChange} id="category">
+          <div className="col-md-3 m-sm">
+            <select name="category" value={category} className="w-100 h-full" onChange={this.handleChange} id="category">
               { categories.map(category => (
                 <option key={category}>
                   { category }
@@ -68,7 +70,9 @@ class BooksForm extends React.Component {
               ))}
             </select>
           </div>
-          <input type="submit" name="Add Book" value="Add Book" />
+          <div className="col-md-2 m-sm">
+            <button value="submit" className="btn btn-primary full-render" type="submit"> ADD BOOK </button>
+          </div>
         </form>
       </div>
     );

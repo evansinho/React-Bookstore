@@ -8,15 +8,14 @@ import { Provider } from 'react-redux';
 import App from './components/App';
 import INITIAL_STATE from './constant/initialState';
 import rootReducer from './reducers';
+import './styles/index.scss';
 
 const STATE = { books: INITIAL_STATE };
 
 const middleware = [thunk];
 
 const store = createStore(rootReducer, STATE,
-  compose(applyMiddleware(...middleware),
-    window.__REDUX_DEVTOOLS_EXTENSION__
-                            && window.__REDUX_DEVTOOLS_EXTENSION__()));
+  compose(applyMiddleware(...middleware)));
 
 ReactDOM.render(
   <Provider store={store}>
